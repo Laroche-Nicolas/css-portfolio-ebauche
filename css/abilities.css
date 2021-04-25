@@ -9,6 +9,7 @@
 }
 
 .abilities__gauge {
+    width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -23,6 +24,7 @@
 .abilities__gauge p {
     margin-bottom: 8px;
 }
+
 .gauge__field {
     width: 100%;
     background-color: #ddd;
@@ -134,15 +136,18 @@
     to {
         width: 70%;
     }
-}@keyframes gaugeJS {
+}
+@keyframes gaugeJS {
     to {
         width: 60%;
     }
-}@keyframes gaugeSql {
+}
+@keyframes gaugeSql {
     to {
         width: 80%;
     }
-}@keyframes gaugeHtmlCSS {
+}
+@keyframes gaugeHtmlCSS {
     to {
         width: 55%;
     }

@@ -11,36 +11,49 @@
     <title>Acceuil</title>
 </head>
 <body>
-    <header>
-        <div class="header-menu container">
-            <div class="logo">
-                <img class="logo" src="images/Logo_Laroche.svg" alt="">
-                <span>Portefolio</span>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="description.html">Qui suis-je</a></li>
-                    <li><a href="work.html">Réalisations</a></li>
-                    <li><a href="abilities.html">Compétences</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="header-menu container">
+        <div class="logo">
+            <img class="logo" src="images/Logo_Laroche.svg" alt="">
+            <span>Portefolio</span>
         </div>
-    </header>
+<!--        <div class="sideM" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>-->
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="description.html">Qui suis-je</a></li>
+                <li><a href="work.html">Réalisations</a></li>
+                <li><a href="abilities.html">Compétences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-        <section class="presentation container">
-            <div class="presentation__texte">
-                <span class="presentation__hello">Bonjour, je m'appelle</span>
-                <h1 class="presentation__titlte">Nicolas, Développeur Web en formation</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto consectetur dignissimos distinctio dolor enim expedita fugit inventore, ipsam neque, nisi officia optio quas, quisquam sapiente sint tempore voluptatibus voluptatum.
-                </p>
-            </div>
-            <figure class="presentation__image">
-                <img src="images/dev.webp" alt="petit_dev">
-            </figure>
-        </section>
-    </header>
+<section class="presentation container">
+    <div class="presentation__texte">
+        <span class="presentation__hello">Bonjour, je m'appelle</span>
+        <h1 class="presentation__titlte">Nicolas, Développeur Web en formation</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto consectetur dignissimos distinctio
+            dolor enim expedita fugit inventore, ipsam neque, nisi officia optio quas, quisquam sapiente sint tempore
+            voluptatibus voluptatum.
+        </p>
+    </div>
+    <figure class="presentation__image">
+        <img src="images/dev.webp" alt="petit_dev">
+    </figure>
+</section>
+</header>
 
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
 </body>
 </html>
+
