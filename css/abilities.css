@@ -1,0 +1,149 @@
+.abilities {
+    display: flex;
+    align-items: center;
+}
+
+.abilities__title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.abilities__gauge {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+.abilities__gauge article {
+    margin: 16px 0;
+}
+.abilities__gauge p {
+    margin-bottom: 8px;
+}
+.gauge__field {
+    width: 100%;
+    background-color: #ddd;
+    height: 25px;
+    border-radius: 20px;
+}
+.gauge__value {
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 8px;
+    border-radius: 20px;
+    text-align: right;
+    color: white;
+    background-color: #5c6af3;
+    width: 15%;
+}
+
+.abilitie__php {
+    animation: gaugePHP 1s 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.abilitie__js {
+    animation: gaugeJS 1s 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.abilitie__sql {
+    animation: gaugeSql 1s 2.5s;
+    animation-fill-mode: forwards;
+}
+
+.abilitie__htmlCSS {
+    animation: gaugeHtmlCSS 1s 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.abilities .abilities__image {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    order: -1;
+    width: 300px;
+    height: 300px;
+    border-radius: 12%;
+    background-color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: translateIn 0.8s
+}
+
+.abilities .abilities__image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@media (min-width: 960px) {
+    .abilities {
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .abilities .abilities__gauge {
+        flex-basis: 50%;
+        padding-right: 20px;
+    }
+
+    .abilities .abilities__image {
+        display: flex;
+        order: 0;
+        flex-basis: 300px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .abilities .abilities__gauge {
+        flex-basis: 45%;
+    }
+
+    .abilities .abilities__image {
+        flex-basis: 420px;
+        height: 420px;
+    }
+}
+
+@media (min-width: 1960px) {
+    .abilities .abilities__gauge {
+        flex-basis: 40%;
+    }
+
+    .abilities .abilities__image {
+        flex-basis: 500px;
+        height: 500px;
+    }
+}
+
+@keyframes translateIn {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes gaugePHP {
+    to {
+        width: 70%;
+    }
+}@keyframes gaugeJS {
+    to {
+        width: 60%;
+    }
+}@keyframes gaugeSql {
+    to {
+        width: 80%;
+    }
+}@keyframes gaugeHtmlCSS {
+    to {
+        width: 55%;
+    }
+}
