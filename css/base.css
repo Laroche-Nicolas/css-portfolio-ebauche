@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dcecfc;
+    color: black;
+}
+
+/* debut menu */
+.header-menu {
+    margin: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.header-menu .logo:hover {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 22px;
+    transition: 1s;
+}
+
+.header-menu .logo img {
+    margin-right: 9px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header-menu nav li {
+    display: inline-block;
+    justify-content: flex-end;
+    background-color: red;
+}
+
+.header-menu nav li a {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.header-menu nav li a:hover {
+    color: white;
+    border-bottom: 1px;
+    transition: 2s;
+}
+
+/* fin menu */
+
+/*debut commons */
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 780px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1980px) {
+    .container {
+        max-width: 1900px;
+    }
+}
+
+/* Debut neutraliser CSS */
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+article {
+    display: inline
+}
+p {
+    margin: 0;
+    display: block;
+}
+/* fin neutraliser CSS*/
