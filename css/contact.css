@@ -43,9 +43,9 @@
 }
 
 .contact-form .input__shadow:focus {
-    -moz-box-shadow: 7px 9px 15px 1px #8089f3;
-    -webkit-box-shadow: 7px 9px 15px 1px #8089f3;
-    box-shadow: 7px 9px 15px 1px #8089f3;
+    -moz-box-shadow: 7px 9px 15px 1px #3260BDFF;
+    -webkit-box-shadow: 7px 9px 15px 1px #3260BDFF;
+    box-shadow: 7px 9px 15px 1px #3260BDFF;
 }
 
 .contact-form .input-message__shadow {
@@ -63,15 +63,15 @@
 }
 
 .contact-form .input-message__shadow:focus {
-    -moz-box-shadow: 7px 9px 15px 1px #8089f3;
-    -webkit-box-shadow: 7px 9px 15px 1px #8089f3;
-    box-shadow: 7px 9px 15px 1px #8089f3;
+    -moz-box-shadow: 7px 9px 15px 1px #3260BDFF;
+    -webkit-box-shadow: 7px 9px 15px 1px #3260BDFF;
+    box-shadow: 7px 9px 15px 1px #3260BDFF;
 }
 
 .contact-form .input__submit {
     color: white;
     margin-top: 25px;
-    background-color: #5c6af3;
+    background-color: #2257bc;
     margin-left: 22%;
     margin-right: 20%;
     padding: 0;
