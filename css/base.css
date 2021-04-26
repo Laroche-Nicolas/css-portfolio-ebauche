@@ -101,8 +101,6 @@ html {
 
 }
 
-
-
 #site-menu-toggle:checked ~ #mastheader #site-branding .sideM svg path:first-child {
     transform: rotate(45deg) translateY(15px);
     transform-origin: center;
@@ -158,13 +156,12 @@ html {
 
         text-decoration: none;
 
-        transition: background-color ease-in-out 500ms,
-        color ease-in-out 500ms;
+        transition: background-color ease-in-out 300ms;
     }
 
     #mastheader #site-navigation ul li a:hover {
         color: white;
-        background-color: #375187;
+        background-color: #4d628b;
     }
 }
 
