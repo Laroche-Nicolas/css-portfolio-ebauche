@@ -8,16 +8,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/description.css"/>
     <link rel="stylesheet" href="css/base.css"/>
+    <script src="js/style.js"></script>
     <title>Qui suis-je ?</title>
 </head>
 <body>
-    <header>
-        <div class="header-menu container">
-            <div class="logo">
-                <img class="logo" src="images/Logo_Laroche.svg" alt="">
-                <span>Portefolio</span>
-            </div>
-            <nav>
+<input id="site-menu-toggle" type="checkbox" aria-label="site menu toggle" aria-checked="false"
+       class="screen-reader-text-hide">
+<header id="mastheader" class="container">
+    <div id="site-branding">
+        <div class="site-logo">
+            <a href="acceuil.html">Acceuil</a>
+            <img class="logo" src="images/Logo_Laroche.svg" alt="">
+            <span>Portefolio</span>
+        </div>
+        <label for="site-menu-toggle" class="sideM">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="48px" viewBox="0 0 48 48">
+                <path d="M41,14H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,14Z" fill="#5c6af3"/>
+                <path d="M41,26H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,26Z" fill="#5c6af3"/>
+                <path d="M41,38H7a2,2,0,0,1,0-4H41A2,2,0,0,1,41,38Z" fill="#5c6af3"/>
+            </svg>
+        </label>
+    </div>
+    <nav id="site-navigation">
                 <ul>
                     <li><a href="acceuil.html">Accueil</a></li>
                     <li><a href="#">Qui suis-je</a></li>

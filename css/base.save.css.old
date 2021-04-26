@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dcecfc;
+    color: black;
+}
+.bar {
+    background: #5c6af3;
+    width: 10px;
+}
+
+/* debut menu */
+#mastheader {
+    margin: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mastheader .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#mastheader .logo:hover {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 22px;
+    transition: 1s;
+}
+
+#mastheader .logo img {
+    margin-right: 9px;
+    max-width: 50px;
+    max-height: 50px;
+}
+#mastheader nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#mastheader nav li {
+    display: inline-block;
+    justify-content: flex-end;
+    margin-right: 8px;
+    margin-bottom: 2px;
+
+}
+
+#mastheader nav li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#mastheader a {
+    color: black;
+    text-decoration: none;
+}
+
+#mastheader nav li:hover {
+    background-color: #5c6af3;
+}
+
+#mastheader nav li a:hover {
+    color: white;
+}
+
+/* fin menu */
+
+/*debut commons */
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+/*
+.sideM {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    justify-content: flex-end;
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+*/
+
+@media (min-width: 600px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 780px) {
+    .container {
+        max-width: 700px;
+    }
+    #mastheader nav ul {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1980px) {
+    .container {
+        max-width: 1900px;
+    }
+}
+
+/* Debut neutraliser CSS */
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+article {
+    display: inline
+}
+p {
+    margin: 0;
+    display: block;
+}
+/* fin neutraliser CSS*/
