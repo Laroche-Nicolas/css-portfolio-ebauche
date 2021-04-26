@@ -28,6 +28,7 @@ html {
 #mastheader .site-logo {
     position: relative;
     display: inline-block;
+    min-width: 84px;
 }
 
 #mastheader .site-logo a {
